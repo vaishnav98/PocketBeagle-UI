@@ -253,7 +253,6 @@ for (var i = 0; i < 36; i++){
 	pinPosY[i] = y; pinPosX[i] = x;
 	pinPosX[i + 36] = x + 226; pinPosY[i+36] = y;
 	}
-//Change this
 // initialize all pins with corresponding properties
 for (var i = 0; i < 76; i++){
     var matrix;
@@ -290,7 +289,6 @@ for (var i = 0; i < 76; i++){
 		pin[i] = new createPin(pinPosX[i],pinPosY[i],matrix[j],"Shared 12C Bus",i);
 	}
 };
-//change this
 // draw beagleboard		
    	var beagleBone = new Image();
       	beagleBone.src = './pocketbeagle.png';
